@@ -8,15 +8,23 @@
 ## venv - Criação de Ambientes Virtuais
 
 * [Documentação](https://docs.python.org/pt-br/3/library/venv.html)
- 
+
 #### Dentro da pasta do projeto verifique a versão do Python com pyenv
 
-`heliezer@hel:~/developer/study/python/python_training_basic$ pyenv version
-3.10.2 (set by /home/heliezer/.pyenv/version)`
+`$ pyenv version 3.10.2 (set by /home/heliezer/.pyenv/version)`
 
 Estando dentro da pasta correta crie um virtual env com venv.
 
-`python -m venv .venv`
+`$ python -m venv .venv`
+
+E por fim acesse o ambiente virtual daquela pasta.
+
+`$ source .venv/bin/activate`
+
+Se tudo estiver correto o resultado será como no exemplo abaixo.
+`(.venv) heliezer@hel:~/developer/study/python/python_training_basic$ `
+
+O (.venv) indica que você está dentro do ambiente virtual e tudo o que for instalado aqui será refletido somente na pasta .venv/bin/activate.
 
 ## pyenv - Gerenciador de versões do Python na mesma maquina.
 
