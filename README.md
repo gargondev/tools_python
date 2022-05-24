@@ -46,3 +46,4 @@ O (.venv) indica que você está dentro do ambiente virtual e tudo o que for ins
 
 * [Como Começar um Projeto Python Perfeito](https://blog.pronus.io/posts/python/como-comecar-um-projeto-python-perfeito/)
 * [Como organizar um projeto Python? - Live de Python #192](https://youtu.be/O3bs4JtHrow)
+* [Gerenciando Ambientes Virtuais Poetry e Pyenv](https://blog.pronus.io/posts/python/gerenciamento-de-versoes-ambiente-virtuais-e-dependencias-com-pyenv-e-poetry/)
